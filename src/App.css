@@ -1,0 +1,38 @@
+.quiz {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.quiz button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quiz button:disabled {
+  cursor: not-allowed;
+  color: white;
+}
+
+.quiz button.correct {
+  background-color: #2e9e4f;
+  color: white;
+}
+
+.quiz button.wrong {
+  background-color: #d64545;
+  color: white;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.quiz button.next {
+  background-color: #3b82f6;
+  color: white;
+}
